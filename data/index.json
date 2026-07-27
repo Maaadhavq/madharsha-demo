@@ -1,0 +1,161 @@
+{
+  "generated_at": "2026-07-27T12:06:22+00:00",
+  "panels": {
+    "kpis": {
+      "source": "synthetic",
+      "caveat": "Computed by the real metrics pipeline, but from the synthetic scaffold table, not from store footage. Structure is real; the numbers are not."
+    },
+    "gender_split": {
+      "source": "synthetic",
+      "caveat": "Computed by the real metrics pipeline, but from the synthetic scaffold table, not from store footage. Structure is real; the numbers are not."
+    },
+    "age_profile": {
+      "source": "synthetic",
+      "caveat": "Computed by the real metrics pipeline, but from the synthetic scaffold table, not from store footage. Structure is real; the numbers are not."
+    },
+    "repeat_breakdown": {
+      "source": "synthetic",
+      "caveat": "Computed by the real metrics pipeline, but from the synthetic scaffold table, not from store footage. Structure is real; the numbers are not."
+    },
+    "conversion_by_hour": {
+      "source": "proxy",
+      "caveat": "Conversion here means 'reached the Billing zone'. Phase 1 excludes billing-system integration, so an actual bill is not observable."
+    },
+    "footfall_by_hour": {
+      "source": "synthetic",
+      "caveat": "Computed by the real metrics pipeline, but from the synthetic scaffold table, not from store footage. Structure is real; the numbers are not."
+    },
+    "occupancy": {
+      "source": "synthetic",
+      "caveat": "Computed by the real metrics pipeline, but from the synthetic scaffold table, not from store footage. Structure is real; the numbers are not."
+    },
+    "queue_pressure": {
+      "source": "proxy",
+      "caveat": "Wait time is dwell inside the Billing zone, which includes the transaction itself, not queueing alone."
+    },
+    "dwell_by_zone": {
+      "source": "synthetic",
+      "caveat": "Computed by the real metrics pipeline, but from the synthetic scaffold table, not from store footage. Structure is real; the numbers are not."
+    },
+    "visit_share": {
+      "source": "synthetic",
+      "caveat": "Computed by the real metrics pipeline, but from the synthetic scaffold table, not from store footage. Structure is real; the numbers are not."
+    },
+    "entry_exit": {
+      "source": "synthetic",
+      "caveat": "Computed by the real metrics pipeline, but from the synthetic scaffold table, not from store footage. Structure is real; the numbers are not."
+    },
+    "underused_zones": {
+      "source": "synthetic",
+      "caveat": "Computed by the real metrics pipeline, but from the synthetic scaffold table, not from store footage. Structure is real; the numbers are not."
+    },
+    "density_heatmap": {
+      "source": "synthetic",
+      "caveat": "Computed by the real metrics pipeline, but from the synthetic scaffold table, not from store footage. Structure is real; the numbers are not."
+    },
+    "trajectories": {
+      "source": "synthetic",
+      "caveat": "Computed by the real metrics pipeline, but from the synthetic scaffold table, not from store footage. Structure is real; the numbers are not."
+    },
+    "bottlenecks": {
+      "source": "synthetic",
+      "caveat": "Computed by the real metrics pipeline, but from the synthetic scaffold table, not from store footage. Structure is real; the numbers are not."
+    },
+    "cooccurrence": {
+      "source": "synthetic",
+      "caveat": "Computed by the real metrics pipeline, but from the synthetic scaffold table, not from store footage. Structure is real; the numbers are not."
+    },
+    "affinity_rules": {
+      "source": "synthetic",
+      "caveat": "Computed by the real metrics pipeline, but from the synthetic scaffold table, not from store footage. Structure is real; the numbers are not."
+    },
+    "affinity_network": {
+      "source": "synthetic",
+      "caveat": "Computed by the real metrics pipeline, but from the synthetic scaffold table, not from store footage. Structure is real; the numbers are not."
+    },
+    "sankey": {
+      "source": "synthetic",
+      "caveat": "Computed by the real metrics pipeline, but from the synthetic scaffold table, not from store footage. Structure is real; the numbers are not."
+    },
+    "interaction_by_zone": {
+      "source": "synthetic",
+      "caveat": "Computed by the real metrics pipeline, but from the synthetic scaffold table, not from store footage. Structure is real; the numbers are not."
+    },
+    "demand_ranking": {
+      "source": "synthetic",
+      "caveat": "Computed by the real metrics pipeline, but from the synthetic scaffold table, not from store footage. Structure is real; the numbers are not."
+    },
+    "interaction_heatmap": {
+      "source": "synthetic",
+      "caveat": "Computed by the real metrics pipeline, but from the synthetic scaffold table, not from store footage. Structure is real; the numbers are not."
+    },
+    "activity_mix": {
+      "source": "synthetic",
+      "caveat": "Computed by the real metrics pipeline, but from the synthetic scaffold table, not from store footage. Structure is real; the numbers are not."
+    },
+    "gaze_heatmap": {
+      "source": "measured",
+      "caveat": "Real gaze annotations from retail_gaze (11 subjects, 42 sessions). Directional only: gaze was scripted rather than natural browsing, subjects wore face masks, and the product masks the dataset references were not shipped, so attention cannot be tied to a specific product."
+    },
+    "attention_summary": {
+      "source": "measured",
+      "caveat": "Real gaze annotations from retail_gaze (11 subjects, 42 sessions). Directional only: gaze was scripted rather than natural browsing, subjects wore face masks, and the product masks the dataset references were not shipped, so attention cannot be tied to a specific product."
+    },
+    "carr_engagement_mix": {
+      "source": "measured",
+      "caveat": "Measured from CARR's own annotations (CC BY 4.0, doi:10.6084/m9.figshare.29470079.v3) -- no model inference. Frames are independent samples from a single tilted camera per store, so this is an engagement MIX, not a conversion funnel, and positions are normalised camera-frame coordinates, not floor metres. Class volumes reflect how the dataset was collected, not how often each behaviour happens in a real shop."
+    },
+    "carr_interaction_heatmap": {
+      "source": "measured",
+      "caveat": "Measured from CARR's own annotations (CC BY 4.0, doi:10.6084/m9.figshare.29470079.v3) -- no model inference. Frames are independent samples from a single tilted camera per store, so this is an engagement MIX, not a conversion funnel, and positions are normalised camera-frame coordinates, not floor metres. Class volumes reflect how the dataset was collected, not how often each behaviour happens in a real shop."
+    },
+    "carr_position_by_activity": {
+      "source": "measured",
+      "caveat": "Measured from CARR's own annotations (CC BY 4.0, doi:10.6084/m9.figshare.29470079.v3) -- no model inference. Frames are independent samples from a single tilted camera per store, so this is an engagement MIX, not a conversion funnel, and positions are normalised camera-frame coordinates, not floor metres. Class volumes reflect how the dataset was collected, not how often each behaviour happens in a real shop."
+    },
+    "carr_hands_on": {
+      "source": "measured",
+      "caveat": "Measured from CARR's own annotations (CC BY 4.0, doi:10.6084/m9.figshare.29470079.v3) -- no model inference. Frames are independent samples from a single tilted camera per store, so this is an engagement MIX, not a conversion funnel, and positions are normalised camera-frame coordinates, not floor metres. Class volumes reflect how the dataset was collected, not how often each behaviour happens in a real shop."
+    },
+    "carr_vertical_profile": {
+      "source": "measured",
+      "caveat": "Measured from CARR's own annotations (CC BY 4.0, doi:10.6084/m9.figshare.29470079.v3) -- no model inference. Frames are independent samples from a single tilted camera per store, so this is an engagement MIX, not a conversion funnel, and positions are normalised camera-frame coordinates, not floor metres. Class volumes reflect how the dataset was collected, not how often each behaviour happens in a real shop."
+    },
+    "carr_motion": {
+      "source": "measured",
+      "caveat": "Produced by running pretrained YOLO11 + ByteTrack over CARR's own video clips -- the same detect-and-track path that would run on Madhar Sha's cameras. Speeds are a fraction of the frame per second, not metres per second: without camera calibration there is no scale, and clips are isolated shelf interactions rather than continuous store footage. Note also that the tracker follows every person in a clip while the label describes only the primary subject, so each class carries some background traffic -- the effect below is measured despite that contamination, not in its absence."
+    },
+    "carr_premise_test": {
+      "source": "measured",
+      "caveat": "Produced by running pretrained YOLO11 + ByteTrack over CARR's own video clips -- the same detect-and-track path that would run on Madhar Sha's cameras. Speeds are a fraction of the frame per second, not metres per second: without camera calibration there is no scale, and clips are isolated shelf interactions rather than continuous store footage. Note also that the tracker follows every person in a clip while the label describes only the primary subject, so each class carries some background traffic -- the effect below is measured despite that contamination, not in its absence."
+    },
+    "carr_speed_distribution": {
+      "source": "measured",
+      "caveat": "Produced by running pretrained YOLO11 + ByteTrack over CARR's own video clips -- the same detect-and-track path that would run on Madhar Sha's cameras. Speeds are a fraction of the frame per second, not metres per second: without camera calibration there is no scale, and clips are isolated shelf interactions rather than continuous store footage. Note also that the tracker follows every person in a clip while the label describes only the primary subject, so each class carries some background traffic -- the effect below is measured despite that contamination, not in its absence."
+    },
+    "carr_tracking_summary": {
+      "source": "measured",
+      "caveat": "Produced by running pretrained YOLO11 + ByteTrack over CARR's own video clips -- the same detect-and-track path that would run on Madhar Sha's cameras. Speeds are a fraction of the frame per second, not metres per second: without camera calibration there is no scale, and clips are isolated shelf interactions rather than continuous store footage. Note also that the tracker follows every person in a clip while the label describes only the primary subject, so each class carries some background traffic -- the effect below is measured despite that contamination, not in its absence."
+    },
+    "floor_split": {
+      "source": "illustrative",
+      "caveat": "Invented placeholder mirroring proposal Figure 1. Not a finding."
+    },
+    "daily_footfall_by_floor": {
+      "source": "illustrative",
+      "caveat": "Invented placeholder mirroring proposal Figure 1. Not a finding."
+    },
+    "weekly_trend": {
+      "source": "illustrative",
+      "caveat": "Invented placeholder mirroring proposal Figure 1. Not a finding."
+    },
+    "staff_interaction": {
+      "source": "illustrative",
+      "caveat": "Separating staff from customers needs a roster or uniform cues that no available dataset labels."
+    },
+    "floorplan": {
+      "source": "config",
+      "caveat": null
+    }
+  }
+}
