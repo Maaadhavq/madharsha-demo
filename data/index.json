@@ -1,25 +1,13 @@
 {
-  "generated_at": "2026-07-29T06:39:49+00:00",
+  "generated_at": "2026-08-01T19:04:27+00:00",
   "panels": {
     "kpis": {
       "source": "synthetic",
       "caveat": "Computed by the real metrics pipeline, but from the synthetic scaffold table, not from store footage. Structure is real; the numbers are not."
     },
-    "gender_split": {
+    "counter_throughput": {
       "source": "synthetic",
-      "caveat": "Computed by the real metrics pipeline, but from the synthetic scaffold table, not from store footage. Structure is real; the numbers are not."
-    },
-    "age_profile": {
-      "source": "synthetic",
-      "caveat": "Computed by the real metrics pipeline, but from the synthetic scaffold table, not from store footage. Structure is real; the numbers are not."
-    },
-    "repeat_breakdown": {
-      "source": "synthetic",
-      "caveat": "Computed by the real metrics pipeline, but from the synthetic scaffold table, not from store footage. Structure is real; the numbers are not."
-    },
-    "conversion_by_hour": {
-      "source": "proxy",
-      "caveat": "Conversion here means 'reached the Billing zone'. Phase 1 excludes billing-system integration, so an actual bill is not observable."
+      "caveat": "How many people were seen at the counter, not how many bought. Phase 1 has no billing-system integration, so a sale is not observable."
     },
     "footfall_by_hour": {
       "source": "synthetic",
@@ -92,6 +80,18 @@
     "activity_mix": {
       "source": "synthetic",
       "caveat": "Computed by the real metrics pipeline, but from the synthetic scaffold table, not from store footage. Structure is real; the numbers are not."
+    },
+    "staffing_gap": {
+      "source": "synthetic",
+      "caveat": "Staff positions come from the same scaffold as the movement data. A camera sees people, not job titles -- separating staff from shoppers on real footage needs uniforms, a badge or a roster joined on shift times, and the accuracy of that step caps everything on this screen. No individual employee is identified."
+    },
+    "coverage_gaps": {
+      "source": "synthetic",
+      "caveat": "Staff positions come from the same scaffold as the movement data. A camera sees people, not job titles -- separating staff from shoppers on real footage needs uniforms, a badge or a roster joined on shift times, and the accuracy of that step caps everything on this screen. No individual employee is identified."
+    },
+    "response_time": {
+      "source": "synthetic",
+      "caveat": "Staff positions come from the same scaffold as the movement data. A camera sees people, not job titles -- separating staff from shoppers on real footage needs uniforms, a badge or a roster joined on shift times, and the accuracy of that step caps everything on this screen. No individual employee is identified."
     },
     "gaze_heatmap": {
       "source": "measured",
