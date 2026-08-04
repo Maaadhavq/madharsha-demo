@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T13:57:04+00:00",
+  "generated_at": "2026-08-04T14:24:11+00:00",
   "panels": {
     "kpis": {
       "source": "synthetic",
@@ -156,6 +156,10 @@
     "floorplan": {
       "source": "config",
       "caveat": null
+    },
+    "key_findings": {
+      "source": "synthetic",
+      "caveat": "Computed by the real metrics pipeline, but from the synthetic scaffold table, not from store footage. Structure is real; the numbers are not."
     }
   }
 }
