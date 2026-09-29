@@ -1,1 +1,1 @@
-{"source": "synthetic", "generated_at": "2026-09-29T13:27:46+00:00", "caveat": null, "data": {"median_track_lifetime_s": 491.0, "p10_track_lifetime_s": 36.6, "tracks": 984, "typical_stay_s": 158.0, "flagged": []}}
+{"source": "synthetic", "generated_at": "2026-09-29T15:09:23+00:00", "caveat": null, "data": {"median_track_lifetime_s": 491.0, "p10_track_lifetime_s": 36.6, "tracks": 984, "typical_stay_s": 158.0, "flagged": []}}

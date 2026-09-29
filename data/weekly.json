@@ -1,6 +1,6 @@
 {
  "source": "synthetic",
- "generated_at": "2026-09-29T13:27:48+00:00",
+ "generated_at": "2026-09-29T15:00:38+00:00",
  "caveat": "Pooled from archived daily runs. The week is only as sound as its weakest day: one synthetic day makes the week synthetic, and any metric flagged on any day is flagged for the week.",
  "data": {
   "period": {
@@ -93,40 +93,377 @@
   "per_zone": [
    {
     "zone": "Billing",
-    "unattended_min_week": 120.0,
-    "busy_min_week": 4395.0,
+    "unattended_min": 120.0,
+    "busy_min": 4395.0,
     "share_of_busy_time": 0.0273,
-    "median_wait_s": 29.4
+    "longest_gap_min": 25.0,
+    "most_customers_left_alone": 9,
+    "median_wait_s": 29.4,
+    "never_reached_share": 0.0191,
+    "visits": 2274,
+    "median": 152.0,
+    "pass_throughs": 82,
+    "share": 0.2728,
+    "hands_on_s": null
    },
    {
     "zone": "Casual",
-    "unattended_min_week": 225.0,
-    "busy_min_week": 4665.0,
+    "unattended_min": 225.0,
+    "busy_min": 4665.0,
     "share_of_busy_time": 0.0482,
-    "median_wait_s": 33.8
+    "longest_gap_min": 15.0,
+    "most_customers_left_alone": 29,
+    "median_wait_s": 33.8,
+    "never_reached_share": 0.0084,
+    "visits": 4147,
+    "median": 210.0,
+    "pass_throughs": 1574,
+    "share": 0.4843,
+    "hands_on_s": 55.0
+   },
+   {
+    "zone": "Entrance",
+    "unattended_min": 0,
+    "busy_min": 0,
+    "share_of_busy_time": null,
+    "longest_gap_min": 0,
+    "most_customers_left_alone": 0,
+    "median_wait_s": null,
+    "never_reached_share": null,
+    "visits": 8012,
+    "median": 20.0,
+    "pass_throughs": 7833,
+    "share": null,
+    "hands_on_s": null
    },
    {
     "zone": "Ethnic",
-    "unattended_min_week": 250.0,
-    "busy_min_week": 4715.0,
+    "unattended_min": 250.0,
+    "busy_min": 4715.0,
     "share_of_busy_time": 0.053,
-    "median_wait_s": 34.3
+    "longest_gap_min": 25.0,
+    "most_customers_left_alone": 20,
+    "median_wait_s": 34.3,
+    "never_reached_share": 0.0093,
+    "visits": 3785,
+    "median": 264.0,
+    "pass_throughs": 1567,
+    "share": 0.4534,
+    "hands_on_s": 71.5
    },
    {
     "zone": "Kids",
-    "unattended_min_week": 190.0,
-    "busy_min_week": 4380.0,
+    "unattended_min": 190.0,
+    "busy_min": 4380.0,
     "share_of_busy_time": 0.0434,
-    "median_wait_s": 34.4
+    "longest_gap_min": 15.0,
+    "most_customers_left_alone": 12,
+    "median_wait_s": 34.4,
+    "never_reached_share": 0.0094,
+    "visits": 2019,
+    "median": 194.0,
+    "pass_throughs": 20,
+    "share": 0.2395,
+    "hands_on_s": 57.0
    },
    {
     "zone": "Trials",
-    "unattended_min_week": 270.0,
-    "busy_min_week": 4660.0,
+    "unattended_min": 270.0,
+    "busy_min": 4660.0,
     "share_of_busy_time": 0.0579,
-    "median_wait_s": 33.2
+    "longest_gap_min": 25.0,
+    "most_customers_left_alone": 23,
+    "median_wait_s": 33.2,
+    "never_reached_share": 0.024,
+    "visits": 2819,
+    "median": 314.0,
+    "pass_throughs": 2,
+    "share": 0.3263,
+    "hands_on_s": null
    }
   ],
+  "hours": [
+   {
+    "label": "10:00",
+    "visitors": 334,
+    "mean_per_day": 47.7
+   },
+   {
+    "label": "11:00",
+    "visitors": 389,
+    "mean_per_day": 55.6
+   },
+   {
+    "label": "12:00",
+    "visitors": 530,
+    "mean_per_day": 75.7
+   },
+   {
+    "label": "13:00",
+    "visitors": 570,
+    "mean_per_day": 81.4
+   },
+   {
+    "label": "14:00",
+    "visitors": 549,
+    "mean_per_day": 78.4
+   },
+   {
+    "label": "15:00",
+    "visitors": 640,
+    "mean_per_day": 91.4
+   },
+   {
+    "label": "16:00",
+    "visitors": 704,
+    "mean_per_day": 100.6
+   },
+   {
+    "label": "17:00",
+    "visitors": 930,
+    "mean_per_day": 132.9
+   },
+   {
+    "label": "18:00",
+    "visitors": 1254,
+    "mean_per_day": 179.1
+   },
+   {
+    "label": "19:00",
+    "visitors": 1548,
+    "mean_per_day": 221.1
+   },
+   {
+    "label": "20:00",
+    "visitors": 982,
+    "mean_per_day": 140.3
+   },
+   {
+    "label": "21:00",
+    "visitors": 2,
+    "mean_per_day": 1.0
+   }
+  ],
+  "activity_mix": [
+   {
+    "activity": "browse",
+    "share": 0.5537
+   },
+   {
+    "activity": "hold",
+    "share": 0.1689
+   },
+   {
+    "activity": "queue",
+    "share": 0.0899
+   },
+   {
+    "activity": "reach",
+    "share": 0.1008
+   },
+   {
+    "activity": "walk",
+    "share": 0.0867
+   }
+  ],
+  "fullest": {
+   "people": 76,
+   "t": "19:40",
+   "date": "2026-07-24"
+  },
+  "queue_peak": {
+   "queue_length": 33,
+   "t": "19:30",
+   "date": "2026-07-25"
+  },
+  "staffing": {
+   "short_slots_total": 92,
+   "short_slots_per_day": 13.1,
+   "worst_per_staff": 39.0
+  },
+  "track_quality": {
+   "clips_probed": 18,
+   "stores": 10,
+   "activities": 6,
+   "median_lifetime_s": 9.65,
+   "worst_clip_lifetime_s": 0.93,
+   "best_clip_lifetime_s": 35.56,
+   "tracks_per_person": 2.0,
+   "worst_tracks_per_person": 5.0,
+   "total_stop_events": 7,
+   "total_group_pairs": 0,
+   "carried_classes_seen": [
+    "bottle",
+    "cup",
+    "handbag",
+    "suitcase",
+    "umbrella"
+   ],
+   "per_clip": [
+    {
+     "store": "Hari Store",
+     "activity": "Picking and Returning",
+     "lifetime_s": 35.56,
+     "lifetime_p90_s": 35.556,
+     "tracks_per_person": 1.0,
+     "tracks": 1,
+     "peak_people": 1
+    },
+    {
+     "store": "Haza Mart",
+     "activity": "Touching",
+     "lifetime_s": 33.03,
+     "lifetime_p90_s": 33.031,
+     "tracks_per_person": 0.5,
+     "tracks": 1,
+     "peak_people": 2
+    },
+    {
+     "store": "Rehana Store",
+     "activity": "Turning to Shelf",
+     "lifetime_s": 22.92,
+     "lifetime_p90_s": 22.917,
+     "tracks_per_person": 1.0,
+     "tracks": 1,
+     "peak_people": 1
+    },
+    {
+     "store": "Hafidz 1 Store",
+     "activity": "Picking and Returning",
+     "lifetime_s": 17.1,
+     "lifetime_p90_s": 28.167,
+     "tracks_per_person": 2.0,
+     "tracks": 2,
+     "peak_people": 1
+    },
+    {
+     "store": "Hafidz 1 Store",
+     "activity": "No Interest",
+     "lifetime_s": 16.76,
+     "lifetime_p90_s": 21.886,
+     "tracks_per_person": 2.0,
+     "tracks": 2,
+     "peak_people": 1
+    },
+    {
+     "store": "Alif Store",
+     "activity": "Turning to Shelf",
+     "lifetime_s": 14.78,
+     "lifetime_p90_s": 15.023,
+     "tracks_per_person": 2.0,
+     "tracks": 2,
+     "peak_people": 1
+    },
+    {
+     "store": "Hari Store",
+     "activity": "Turning to Shelf",
+     "lifetime_s": 14.49,
+     "lifetime_p90_s": 25.126,
+     "tracks_per_person": 2.0,
+     "tracks": 2,
+     "peak_people": 1
+    },
+    {
+     "store": "Senyum Store",
+     "activity": "Touching",
+     "lifetime_s": 12.51,
+     "lifetime_p90_s": 22.143,
+     "tracks_per_person": 1.0,
+     "tracks": 2,
+     "peak_people": 2
+    },
+    {
+     "store": "Hafidz 2 Store",
+     "activity": "Picking and Putting",
+     "lifetime_s": 12.21,
+     "lifetime_p90_s": 14.616,
+     "tracks_per_person": 1.5,
+     "tracks": 3,
+     "peak_people": 2
+    },
+    {
+     "store": "Rehana Store",
+     "activity": "No Interest",
+     "lifetime_s": 7.08,
+     "lifetime_p90_s": 8.517,
+     "tracks_per_person": 1.5,
+     "tracks": 3,
+     "peak_people": 2
+    },
+    {
+     "store": "Budi Jaya Store",
+     "activity": "Viewing",
+     "lifetime_s": 6.53,
+     "lifetime_p90_s": 7.447,
+     "tracks_per_person": 2.0,
+     "tracks": 4,
+     "peak_people": 2
+    },
+    {
+     "store": "Alif Store",
+     "activity": "No Interest",
+     "lifetime_s": 5.07,
+     "lifetime_p90_s": 5.173,
+     "tracks_per_person": 5.0,
+     "tracks": 5,
+     "peak_people": 1
+    },
+    {
+     "store": "Budi Jaya Store",
+     "activity": "Picking and Putting",
+     "lifetime_s": 3.9,
+     "lifetime_p90_s": 15.527,
+     "tracks_per_person": 4.0,
+     "tracks": 4,
+     "peak_people": 1
+    },
+    {
+     "store": "Senyum 2 Store",
+     "activity": "Picking and Putting",
+     "lifetime_s": 3.0,
+     "lifetime_p90_s": 17.311,
+     "tracks_per_person": 1.67,
+     "tracks": 5,
+     "peak_people": 3
+    },
+    {
+     "store": "Haza Mart",
+     "activity": "Viewing",
+     "lifetime_s": 2.6,
+     "lifetime_p90_s": 18.316,
+     "tracks_per_person": 3.0,
+     "tracks": 3,
+     "peak_people": 1
+    },
+    {
+     "store": "Senyum 3 Store",
+     "activity": "Picking and Returning",
+     "lifetime_s": 1.94,
+     "lifetime_p90_s": 31.553,
+     "tracks_per_person": 1.5,
+     "tracks": 3,
+     "peak_people": 2
+    },
+    {
+     "store": "Hafidz 2 Store",
+     "activity": "Touching",
+     "lifetime_s": 1.06,
+     "lifetime_p90_s": 9.469,
+     "tracks_per_person": 5.0,
+     "tracks": 5,
+     "peak_people": 1
+    },
+    {
+     "store": "Senyum 2 Store",
+     "activity": "Viewing",
+     "lifetime_s": 0.93,
+     "lifetime_p90_s": 18.1,
+     "tracks_per_person": 2.5,
+     "tracks": 5,
+     "peak_people": 2
+    }
+   ]
+  },
   "counter_wait_s": {
    "median": 161.5,
    "p90": 205.3
