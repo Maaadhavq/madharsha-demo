@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T14:24:11+00:00",
+  "generated_at": "2026-09-29T13:27:46+00:00",
   "panels": {
     "kpis": {
       "source": "synthetic",
@@ -133,9 +133,9 @@
       "source": "measured",
       "caveat": "Produced by running pretrained YOLO11 + ByteTrack over CARR's own video clips -- the same detect-and-track path that would run on Madhar Sha's cameras. Speeds are a fraction of the frame per second, not metres per second: without camera calibration there is no scale, and clips are isolated shelf interactions rather than continuous store footage. Note also that the tracker follows every person in a clip while the label describes only the primary subject, so each class carries some background traffic -- the effect below is measured despite that contamination, not in its absence."
     },
-    "carr_tracking_summary": {
+    "track_quality": {
       "source": "measured",
-      "caveat": "Produced by running pretrained YOLO11 + ByteTrack over CARR's own video clips -- the same detect-and-track path that would run on Madhar Sha's cameras. Speeds are a fraction of the frame per second, not metres per second: without camera calibration there is no scale, and clips are isolated shelf interactions rather than continuous store footage. Note also that the tracker follows every person in a clip while the label describes only the primary subject, so each class carries some background traffic -- the effect below is measured despite that contamination, not in its absence."
+      "caveat": "Measured by running pretrained YOLO11 + ByteTrack over 18 CARR clips spread across 10 stores and all six behaviour classes -- the same detect-and-track path that would run on Madhar Sha's cameras. Read every figure as an optimistic ceiling: CARR clips are isolated 45-second snippets with usually one person in frame, so a track cannot outlive its clip and has little chance to be confused with a second shopper. Continuous store footage will be worse, not better."
     },
     "floor_split": {
       "source": "illustrative",
@@ -152,6 +152,10 @@
     "staff_interaction": {
       "source": "illustrative",
       "caveat": "Separating staff from customers needs a roster or uniform cues that no available dataset labels."
+    },
+    "_identity_audit": {
+      "source": "synthetic",
+      "caveat": null
     },
     "floorplan": {
       "source": "config",

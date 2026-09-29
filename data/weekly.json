@@ -1,0 +1,137 @@
+{
+ "source": "synthetic",
+ "generated_at": "2026-09-29T13:27:48+00:00",
+ "caveat": "Pooled from archived daily runs. The week is only as sound as its weakest day: one synthetic day makes the week synthetic, and any metric flagged on any day is flagged for the week.",
+ "data": {
+  "period": {
+   "start": "2026-07-21",
+   "end": "2026-07-27",
+   "days_requested": 7,
+   "days_present": 7,
+   "days_missing": []
+  },
+  "footfall": {
+   "total": 8432,
+   "mean_per_day": 1204.6,
+   "best_day": {
+    "date": "2026-07-25",
+    "weekday": "Saturday",
+    "footfall": 1663
+   },
+   "worst_day": {
+    "date": "2026-07-21",
+    "weekday": "Tuesday",
+    "footfall": 948
+   },
+   "swing_pct": 75.4
+  },
+  "days": [
+   {
+    "date": "2026-07-21",
+    "weekday": "Tuesday",
+    "footfall": 948,
+    "reached_counter": 269,
+    "peak_hour": "19:00",
+    "peak_visitors": 168,
+    "fullest": 47
+   },
+   {
+    "date": "2026-07-22",
+    "weekday": "Wednesday",
+    "footfall": 1027,
+    "reached_counter": 289,
+    "peak_hour": "19:00",
+    "peak_visitors": 185,
+    "fullest": 49
+   },
+   {
+    "date": "2026-07-23",
+    "weekday": "Thursday",
+    "footfall": 1103,
+    "reached_counter": 277,
+    "peak_hour": "19:00",
+    "peak_visitors": 220,
+    "fullest": 63
+   },
+   {
+    "date": "2026-07-24",
+    "weekday": "Friday",
+    "footfall": 1369,
+    "reached_counter": 377,
+    "peak_hour": "19:00",
+    "peak_visitors": 295,
+    "fullest": 76
+   },
+   {
+    "date": "2026-07-25",
+    "weekday": "Saturday",
+    "footfall": 1663,
+    "reached_counter": 466,
+    "peak_hour": "19:00",
+    "peak_visitors": 268,
+    "fullest": 67
+   },
+   {
+    "date": "2026-07-26",
+    "weekday": "Sunday",
+    "footfall": 1336,
+    "reached_counter": 381,
+    "peak_hour": "19:00",
+    "peak_visitors": 224,
+    "fullest": 63
+   },
+   {
+    "date": "2026-07-27",
+    "weekday": "Monday",
+    "footfall": 986,
+    "reached_counter": 279,
+    "peak_hour": "19:00",
+    "peak_visitors": 188,
+    "fullest": 52
+   }
+  ],
+  "per_zone": [
+   {
+    "zone": "Billing",
+    "unattended_min_week": 120.0,
+    "busy_min_week": 4395.0,
+    "share_of_busy_time": 0.0273,
+    "median_wait_s": 29.4
+   },
+   {
+    "zone": "Casual",
+    "unattended_min_week": 225.0,
+    "busy_min_week": 4665.0,
+    "share_of_busy_time": 0.0482,
+    "median_wait_s": 33.8
+   },
+   {
+    "zone": "Ethnic",
+    "unattended_min_week": 250.0,
+    "busy_min_week": 4715.0,
+    "share_of_busy_time": 0.053,
+    "median_wait_s": 34.3
+   },
+   {
+    "zone": "Kids",
+    "unattended_min_week": 190.0,
+    "busy_min_week": 4380.0,
+    "share_of_busy_time": 0.0434,
+    "median_wait_s": 34.4
+   },
+   {
+    "zone": "Trials",
+    "unattended_min_week": 270.0,
+    "busy_min_week": 4660.0,
+    "share_of_busy_time": 0.0579,
+    "median_wait_s": 33.2
+   }
+  ],
+  "counter_wait_s": {
+   "median": 161.5,
+   "p90": 205.3
+  },
+  "source": "synthetic",
+  "flagged_payloads": []
+ }
+}
